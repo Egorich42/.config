@@ -12,6 +12,7 @@ Plug 'tyru/open-browser.vim'
 Plug 'aklt/plantuml-syntax'
 Plug 'tpope/vim-surround' 
 Plug 'tpope/vim-commentary' 
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
