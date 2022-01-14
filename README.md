@@ -2,7 +2,8 @@
 
 Path:
 .tmux.conf - ~/.tmux.conf
-init.vim -> ~/nvim/init.vim
+
+init.vim -> ~/.config/nvim/init.vim
 
 
 Reload tmux conf
