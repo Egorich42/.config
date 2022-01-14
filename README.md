@@ -1,5 +1,9 @@
 # .config
 
+
+Настройка zsh не забыть
+
+
 Path:
 .tmux.conf - ~/.tmux.conf
 
