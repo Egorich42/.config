@@ -29,7 +29,12 @@ mv .tmux.conf ~
 ```
 mv init.vim ~/.config/nvim/
 ```
+exec
 
+```
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
 #### To configure ZSH and OH-MY-ZSH
 ```
