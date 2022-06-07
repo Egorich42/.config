@@ -24,6 +24,14 @@ To configure TMUX - move .tmux.conf to ~
 mv .tmux.conf ~
 ```
 
+If BACKASPACE not work in TMUX - https://github.com/tmux/tmux/issues/321
+changed from:
+```
+set -g default-terminal "tmux-256color"
+to:
+set -g default-terminal "xterm-256color"
+```
+
 #### To configure NEOVIM - move init.vim to .config/nvim
 
 ```
