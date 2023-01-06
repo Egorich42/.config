@@ -58,7 +58,7 @@ move .zshrc to ~
 mv .zshrc ~
 ```
 
-
+Oh-my-zsh git cheatsheet - https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index
 Path:
 .tmux.conf - ~/.tmux.conf
 
