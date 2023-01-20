@@ -13,6 +13,7 @@ Plug 'aklt/plantuml-syntax'
 Plug 'tpope/vim-surround' 
 Plug 'tpope/vim-commentary' 
 Plug 'scrooloose/nerdtree'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
