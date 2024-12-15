@@ -1,12 +1,39 @@
 My configs for ZSH, Tmuz and Neovim (Ubuntu)
 
 ### 1) install neovim, zsh + oh-my-zsh and tmux
-
-```
-apt install tmux 
+Linux:
+bash```
+brew install tmux 
 apt install neovim 
 apt install zsh 
 ```
+
+Mac:
+1.Install Homebrew
+
+Run this script 
+bash```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Usialy, on M1 and higher, standart directory for Homebrew is:
+```
+/opt/homebrew
+```
+And if is your case, use for PATH:
+bash```
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+Check if Homebrew installed correctly by command:
+bash```
+brew doctor
+```
+1.Install `tmux` and `neovim`:
+bash```
+brew install neovim tmux
+```
+
+
 instruction how install oh-my-zsh [here](https://ohmyz.sh/) [], on below page
 
 
@@ -15,7 +42,7 @@ instruction how install oh-my-zsh [here](https://ohmyz.sh/) [], on below page
 Clone this repo into ~
 ```
 cd ~
-git clone https://github.com/Egorich42/configs
+git clone git@github.com:Egorich42/.config.git
 cd configs
 ```
 
@@ -24,7 +51,7 @@ To configure TMUX - move .tmux.conf to ~
 mv .tmux.conf ~
 ```
 
-If BACKASPACE not work in TMUX - https://github.com/tmux/tmux/issues/321
+If BACKSPACE not work in TMUX - https://github.com/tmux/tmux/issues/321
 changed from:
 ```
 set -g default-terminal "tmux-256color"
