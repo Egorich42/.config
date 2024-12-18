@@ -83,12 +83,20 @@ and execute `:PlugInstall`. After all plugins will be installed correctly, you c
 
 ## How instal plugins for vim
 
-For using vim-pligins [install vim-plug](https://github.com/junegunn/vim-plug#installation)
+How to add new vim-pligin:
+1. [install vim-plug](https://github.com/junegunn/vim-plug#installation)
 
-add plugin in init.vim (for example Plugin 'scrooloose/nerdtree')
-nvim
+2. Add plugin in `init.vim` (for example Plugin `scrooloose/nerdtree`)
+3. Install by command:
+Open vim:
+```bash
+vim
+```
+And execute following commands:
+```
 :PlugInstall
 :UpdateRemotePlugins
+```
 
 ------------------ !! OUTDATED !! ---------------------
 
