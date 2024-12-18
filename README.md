@@ -24,12 +24,12 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 Check if Homebrew installed correctly by command:
-bash```
+```bash
 brew doctor
 ```
 
 2.Install `neovim`:
-bash```
+```bash
 brew install neovim 
 ```
 
@@ -38,7 +38,7 @@ instruction how install oh-my-zsh [here](https://ohmyz.sh/) [], on below page
 
 4. Replace existing file `.zshrc` to `.zshrc` from this repo:
 Clone repo:
-bash```
+```bash
 cd ~
 git clone git@github.com:Egorich42/.config.git
 ```
@@ -48,7 +48,7 @@ mv `~/.config.zshrc ~/.zshrc`
 ```
 
 5. Install Vimplug for opportunity to install plugins fro Vim.
-bash```
+```bash
  curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
@@ -57,13 +57,13 @@ bash```
 File `~/.config/nvim/init.vim` will be used as source of actual config file for Neovim. If you cloned this repo into root at the spep 4, new configs already in use
 
 7.  To check if neovim installed correctly and run vith all my plugins run following command:
-bash```
+```bash
 nvim
 ```
 Then reload you Terminal. Now, because of aliases in `.zshrc` you can run `neovim` as standart `vim`.
 
-8. Install plugins. 
-bash``
+8. Install plugins. Open vim:
+```bash
 vim
 ```
 and execute `:PlugInstall`. After all plugins will be installed correctly, you can check their status by command `:PlugStatus`
