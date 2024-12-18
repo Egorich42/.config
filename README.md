@@ -59,8 +59,8 @@ mv `~/.config.zshrc ~/.zshrc`
 
 File `~/.config/nvim/init.vim` will be used as source of actual config file for Neovim. If you cloned this repo into root at the spep 4, new configs already in use
 
-7.  To check if neovim installed correctly and run vith all my plugins run following command:
-8.  
+7.  To check if neovim installed correctly, run it by following command:
+ 
 ```bash
 nvim
 ```
