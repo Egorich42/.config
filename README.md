@@ -93,9 +93,11 @@ nvim
 
 ------------------ !! OUTDATED !! ---------------------
 
+
+
+
 1. install neovim, zsh + oh-my-zsh and tmux
-Linux:
-bash```
+```bash
 brew install tmux 
 apt install neovim 
 apt install zsh 
