@@ -77,10 +77,9 @@ and execute `:PlugInstall`. After all plugins will be installed correctly, you c
 ## Cheatsheets:
 
 [NeoVim cheatsheet](https://www.shortcutfoo.com/app/dojos/neovim/cheatsheet)
+
 [Oh-my-zsh GIT shortcats](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
 
-:PlugInstall
-:PlugStatus
 
 ## How instal plugins for vim
 
