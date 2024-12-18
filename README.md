@@ -6,7 +6,7 @@ Instruction how to set up my comfortable working environment - code editors and 
 1.Install Homebrew
 
 Run this script 
-bash```
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -18,7 +18,7 @@ Usually, standard directory for Homebrew is:
 
 And if is your case, use for PATH:
 
-bash```
+```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
