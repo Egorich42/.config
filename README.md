@@ -42,8 +42,10 @@ Clone repo:
 cd ~
 git clone git@github.com:Egorich42/.config.git
 ```
+
 And replace file:
-bash```
+
+```bash
 mv `~/.config.zshrc ~/.zshrc`
 ```
 
@@ -52,14 +54,17 @@ mv `~/.config.zshrc ~/.zshrc`
  curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
 6. Update Vim configs:
 
 File `~/.config/nvim/init.vim` will be used as source of actual config file for Neovim. If you cloned this repo into root at the spep 4, new configs already in use
 
 7.  To check if neovim installed correctly and run vith all my plugins run following command:
+8.  
 ```bash
 nvim
 ```
+
 Then reload you Terminal. Now, because of aliases in `.zshrc` you can run `neovim` as standart `vim`.
 
 8. Install plugins. Open vim:
