@@ -9,11 +9,15 @@ Run this script
 bash```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
 Usually, standard directory for Homebrew is:
+
 ```
 /opt/homebrew
 ```
+
 And if is your case, use for PATH:
+
 bash```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
