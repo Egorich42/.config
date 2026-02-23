@@ -76,6 +76,20 @@ and execute `:PlugInstall`. After all plugins will be installed correctly, you c
 
 ## Cheatsheets:
 
+Copilot plugins cheatsheet:
+
+Space + f + b — Telescope file browser
+
+Space + c + c — Open/Close CopilotChat
+
+Space + c + s — Send current file to Copilot
+
+Ctrl + \ — open/close Terminal
+
+gp (in Chat window) — Put code into file
+
+
+
 [NeoVim cheatsheet](https://www.shortcutfoo.com/app/dojos/neovim/cheatsheet)
 
 [Oh-my-zsh GIT shortcats](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
